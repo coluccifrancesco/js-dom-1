@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+}
+
+#turnOn{
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 148, 148);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.15s;
+
+    &:hover{
+        border: 1px solid rgb(148, 148, 148);
+        color: rgb(148, 148, 148);
+        background-color: transparent;
+    }
+
+    &:active{
+        border: 1px solid rgb(255, 191, 0);
+        color:  rgb(255, 191, 0);;
+        background-color: rgb(255, 255, 255);
+    }
+}
