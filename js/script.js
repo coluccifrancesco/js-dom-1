@@ -6,19 +6,19 @@ btn.addEventListener('click',
     
 function(){
 
-        if(btn.innerHTML === 'Accendi'){
+    if(btn.innerHTML === 'Accendi'){
             // btn.addEventListener('click', function(){
-                btn.innerHTML = 'Spegni'
-                elemento.src = './img/yellow_lamp.png';
-                // return
+            btn.innerHTML = 'Spegni'
+            elemento.src = './img/yellow_lamp.png';
+            // return
             // })
         }
 
         else {
             // btn.addEventListener('click', function(){
-                elemento.src = './img/white_lamp.png'
-                btn.innerHTML = 'Accendi'
-                // return
+            elemento.src = './img/white_lamp.png'
+            btn.innerHTML = 'Accendi'
+            // return
             // })
         }
 
